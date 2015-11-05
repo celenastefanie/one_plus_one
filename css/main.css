@@ -1,0 +1,17 @@
+nav {
+  text-align: center;
+}
+
+h1, li, .masthead{
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+}
+
+.pre-foot {
+  display: inline;
+}
