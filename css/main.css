@@ -8,6 +8,14 @@ h1, li, .masthead{
   text-align: center;
 }
 
+.masthead {
+  background-color: #888888;
+}
+
+.pricing-bucket {
+  background-color: #C0C0C0;
+}
+
 h2 {
   font-family: 'Playfair Display', serif;
   font-weight: 400;
@@ -31,4 +39,5 @@ footer {
 
 .pre-foot {
   display: inline;
+  background-color: #989898;
 }
