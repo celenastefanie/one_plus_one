@@ -12,6 +12,19 @@ h1, li, .masthead{
   background-color: #888888;
 }
 
+.banner-text {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.quote {
+  padding: 10%;
+}
+
+.index {
+  background-color: #F0F0F0;
+}
+
 .pricing-bucket {
   background-color: #C0C0C0;
 }
@@ -36,6 +49,20 @@ a {
   display: inline-block;
   margin-left: 40%;
   text-decoration: none;
+}
+
+.button-1 {
+  border-style: solid;
+  border-color: #42210B;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  padding: .5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 40%;
+  text-decoration: none;
+  display: inline;
 }
 
 .button-2 {
