@@ -5,12 +5,16 @@ nav {
 
 nav ul {
   padding-right: 12%;
-  padding-top: .40em;
+  padding-top: .50em;
 }
 
 .small-logo {
   float: left;
   width: 15%;
+}
+
+.masthead-image {
+  width: 100%;
 }
 
 h1, li a {
@@ -22,6 +26,7 @@ h1, li a {
 
 p {
   font-family: 'Lora', serif;
+  color:#42210B;
 }
 
 .masthead {
@@ -38,13 +43,10 @@ p {
   padding: 10%;
 }
 
-.index {
-  background-color: #F0F0F0;
+.index, .pricing-bucket {
+  background-color: #C99D9E;
 }
 
-.pricing-bucket {
-  background-color: #C0C0C0;
-}
 
 h2 {
   font-family: 'Playfair Display', serif;
@@ -66,7 +68,7 @@ a {
 }
 
 .button {
-  border-style: solid;
+  border: 1.75px solid;
   border-color: #42210B;
   text-align: center;
   font-family: 'Playfair Display', serif;
@@ -80,7 +82,7 @@ a {
 
 .button-1 {
   color: #FFEEEE;
-  border-style: solid;
+  border: 1.75px solid;
   border-color: #FFEEEE;;
   text-align: center;
   font-family: 'Playfair Display', serif;
@@ -95,7 +97,7 @@ a {
 }
 
 .button-2 {
-  border-style: solid;
+  border: 1.75px solid;
   border-color: #FFEEEE;
   color: #FFEEEE;
   text-align: center;
@@ -115,7 +117,7 @@ footer p {
   color: #FFEEEE;
 }
 
-.pre-foot {
+.pre-foot, .pre-foot p {
   background-color: #954244;
   text-align: center;
   padding: 2em;
