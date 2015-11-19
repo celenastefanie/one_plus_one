@@ -6,6 +6,11 @@ nav {
 h1, li, .masthead{
   font-family: 'Playfair Display', serif;
   text-align: center;
+  font-weight: 700;
+}
+
+p {
+  font-family: 'Lora', serif;
 }
 
 .masthead {
@@ -29,10 +34,11 @@ h1, li, .masthead{
   background-color: #C0C0C0;
 }
 
-h2 {
+h2, h3 {
   font-family: 'Playfair Display', serif;
-  font-weight: 400;
+  font-weight: 700;
 }
+
 
 a {
   color: #42210B;
@@ -43,7 +49,7 @@ a {
   border-color: #42210B;
   text-align: center;
   font-family: 'Playfair Display', serif;
-  font-weight: 400;
+  font-weight: 700;
   padding: 0.5em;
   width: 20%;
   display: inline-block;
@@ -56,7 +62,7 @@ a {
   border-color: #42210B;
   text-align: center;
   font-family: 'Playfair Display', serif;
-  font-weight: 400;
+  font-weight: 700;
   padding: .5em;
   padding-left: 1em;
   padding-right: 1em;
@@ -70,7 +76,7 @@ a {
   border-color: #42210B;
   text-align: center;
   font-family: 'Playfair Display', serif;
-  font-weight: 400;
+  font-weight: 700;
   padding: .5em;
   width: 40%;
   text-decoration: none;
@@ -104,7 +110,7 @@ footer {
     border-color: #42210B;
     text-align: center;
     font-family: 'Playfair Display', serif;
-    font-weight: 400;
+    font-weight: 700;
     padding: 0.5em;
     width: 40%;
     display: inline-block;
