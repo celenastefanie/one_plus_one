@@ -13,7 +13,7 @@ nav ul {
   width: 15%;
 }
 
-.masthead-image {
+img {
   width: 100%;
 }
 
@@ -41,6 +41,13 @@ p {
 
 .quote {
   padding: 10%;
+  position: absolute;
+  overflow: hidden;
+}
+
+.couple-image {
+  position: relative;
+  overflow: hidden;
 }
 
 .index, .pricing-bucket {
