@@ -90,7 +90,7 @@ footer {
 .pre-foot-p {
   width: 50%;
   display: inline;
-  padding-right: 2em;
+  padding-right: 1em;
 }
 
 @media only screen and (min-width: 20em) {
