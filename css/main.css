@@ -35,21 +35,28 @@ p {
   overflow: hidden;
 }
 
+.masthead-image {
+  display:  block;
+}
+
 .banner-text {
   padding-left: 20%;
   padding-right: 20%;
   position: absolute;
+  text-align: center;
+  width: 100%;
 }
 
 .quote {
-  padding: 10%;
   position: absolute;
-  overflow: hidden;
+  z-index: 10;
+  padding-top: 45%;
 }
 
 .couple-image {
   position: relative;
   overflow: hidden;
+  display: block;
 }
 
 .index, .pricing-bucket {
