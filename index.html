@@ -15,10 +15,16 @@
 
 <body>
 
+<ul class="skip-links">
+  <li><a href="#main">Jump to main content</a></li>
+  <li><a href="#nav">Jump to navigation</a></li>
+  <li><a href="#footer">Jump to footer</a></li>
+</ul>
+
 <header>
   <div class="grid">
     <div class="unit xs-1 s-1 m-1 l-1">
-      <nav class="island-1-2">
+      <nav role="navigation" id="nav" class="island-1-2">
         <img class="small-logo" src="images/top-left-logo-02.png" alt="">
         <ul class="nav list-group list-group--inline push-none">
           <li class="push-r"><a href="index.html">HOME</a></li>
@@ -29,16 +35,18 @@
       </nav>
     </div>
 
-    <div class="unit masthead island-2 xs-1 s-1 m-1 l-1">
-      <h1 class="banner-text yotta">We make your wedding beautifully easy</h1>
-      <h2 class="banner-text pad-b tera">Locate and organize local vendors, dates, guests, music and more without having to leave your house.</h2>
-      <a class="pad-t button-1" href="creditcard.html">Sign Up Now</a>
-      <img class="masthead-image" src"images/masthead.png" alt="">
+    <div role="banner" id="main" class="unit masthead xs-1 s-1 m-1 l-1">
+      <div class="banner-text pad-t-2">
+        <h1 class="yotta">We make your wedding beautifully easy</h1>
+        <h2 class="tera">Locate and organize local vendors, dates, guests, music and more without having to leave your house.</h2>
+        <a class="pad-t-2 button-1 mega" href="creditcard.html">Sign Up Now</a>
+      </div>
+      <img class="masthead-image" src="images/masthead.png" alt="">
     </div>
   </div>
 </header>
 
-<main>
+<main role="main">
 
 <div class="grid index island">
   <div class="unit island-1-4 xs-1 s-1 m-1-2 l-1-3">
@@ -65,12 +73,16 @@
 
 </main>
 
-<footer class="island micro text-center">
+<footer id="footer" class="island micro text-center">
   <p>
     Contact us:
     <br>oneone@weddingplanning.ca
     <br>613-889-4557</br>
   </p>
+
+  <div role="contentinfo">
+    <p>©Oneplusone 2015</p>
+  </div>
 </footer>
 
 </body>
