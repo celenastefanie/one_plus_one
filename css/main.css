@@ -1,16 +1,17 @@
 nav {
   text-align: center;
   background-color: #730000;
+  overflow: hidden;
 }
 
-nav ul {
-  padding-right: 12%;
-  padding-top: .50em;
+ul {
+  padding-top: 4em;
+  display: none;
 }
 
 .small-logo {
   float: left;
-  width: 15%;
+  width: 45%;
 }
 
 img {
@@ -22,6 +23,12 @@ h1, li a {
   font-weight: 700;
   font-style: italic;
   color: #FFEEEE;
+  display: block;
+}
+
+li {
+  width: 100%;
+  padding-bottom: .5em;
 }
 
 p {
@@ -37,6 +44,27 @@ p {
 
 .masthead-image {
   display:  block;
+}
+
+.menu-icon {
+  width: 20%;
+  padding: .5em;
+  position: absolute;
+  right: 3px;
+  top: 7px;
+}
+
+.nav-check {
+  position: absolute;
+  top: -3em;
+}
+
+.nav-check:checked ~ ul {
+  display: block;
+}
+
+.nav-label {
+  cursor: pointer;
 }
 
 .banner-text {
@@ -167,8 +195,53 @@ footer p {
     text-decoration: none;
   }
 
+  .pre-foot {
+    font-size: 90%;
+  }
+
+  .button-2 {
+    margin-top: 1em;
+  }
+
+  .pre-foot-p {
+    height: 1em;
+  }
+  .quote {
+    font-size: 90%;
+  }
+
 }
 
+@media only screen and (min-width: 25em) {
+  .small-logo {
+    float: left;
+    width: 25%;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .nav-check {
+    display: none;
+  }
+
+  .nav-check:checked ~ ul {
+    display: none;
+  }
+
+  .nav-label {
+    display: none;
+}
+  li {
+    width: 100%;
+    padding-bottom: .5em;
+    display: block;
+}
+  header ul {
+    display: block;
+  }
+}
 
 
 @media only screen and (min-width: 40em) {
@@ -176,6 +249,14 @@ footer p {
     padding-left: 20%;
     padding-right: 20%;
   }
+
+  ul {
+    padding-top: 4em;
+    display: block;
+  }
+
+
+
 }
 
 
