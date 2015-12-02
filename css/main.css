@@ -214,8 +214,8 @@ footer p {
 
 @media only screen and (min-width: 25em) {
   .small-logo {
+    width: 22%;
     float: left;
-    width: 25%;
   }
 
   .menu-icon {
@@ -233,13 +233,21 @@ footer p {
   .nav-label {
     display: none;
 }
+
+  ul {
+    padding-top: .5em;
+  }
   li {
-    width: 100%;
+    width: 25%;
     padding-bottom: .5em;
+    padding-top: 1.5%;
     display: block;
 }
   header ul {
-    display: block;
+    display: inline-block;
+    width: 75%;
+    clear: both;
+    overflow: hidden;
   }
 }
 
@@ -249,16 +257,13 @@ footer p {
     padding-left: 20%;
     padding-right: 20%;
   }
-
-  ul {
-    padding-top: 4em;
-    display: block;
-  }
-
-
-
 }
 
+@media only screen and (min-width: 53em) {
+  .small-logo {
+    width: 18%;
+    float: left;
+  }
 
 @media only screen and (min-width: 60em) {
 
