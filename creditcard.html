@@ -18,27 +18,100 @@
   <header>
     <div class="grid">
       <div class="unit xs-1 s-1 m-1 l-1">
-        <nav class="island-1-2">
-        <img class="small-logo" src="images/top-left-logo-02.png" alt="">
+        <nav role="navigation" id="nav" class="island-1-2">
+          <a href="index.html">
+            <img class="small-logo" src="images/top-left-logo-02.png" alt="">
+          </a>
+          <input type="checkbox" class="nav-check" id="nav-check">
+          <label class="nav-label" for="nav-check">
+          <img class="menu-icon" src="images/menu-icon-01.png" alt="Navigation">
+          </label>
           <ul class="nav list-group list-group--inline push-none">
-            <li class="push-r"><a href="index.html">HOME</a></li>
-            <li class="push-r"><a href="tourpage.html">TOUR</a></li>
-            <li class="push-r"><a href="pricingpage.html">PRICING</a></li>
-            <li class="push-r"><a href="creditcard.html">SIGN UP</a></li>
+            <li class=""><a href="tourpage.html">TOUR</a></li>
+            <li class=""><a href="pricingpage.html">PRICING</a></li>
+            <li class=""><a href="creditcard.html">SIGN UP</a></li>
           </ul>
         </nav>
       </div>
 
-      <div class="unit masthead island-2 xs-1 s-1 m-1 l-1">
-        <h1 class="banner-text yotta">We make your wedding beautifully easy</h1>
-        <h2 class="banner-text pad-b tera">Locate and organize local vendors, dates, guests, music and more without having to leave your house.</h2>
-        <img class="masthead-image" src="images/masthead.png" alt="">
+      <div role="banner" id="main" class="unit masthead xs-1 s-1 m-1 l-1">
+        <div class="banner-text pad-t-2">
+          <h1 class="yotta">We make your wedding beautifully easy</h1>
+          <h2 class="tera">Locate and organize local vendors, dates, guests, music and more without having to leave your house.</h2>
+        </div>
+        <img class="masthead-image" src="images/masthead.png" alt="Bouquet of flowers">
       </div>
     </div>
   </header>
 
 <main>
 
+<form action="https://formspree.io/celenastefanie@gmail.com" method="post">
+  <div>
+    <label for="name">Name</label>
+    <input id="name" required placeholder="Jane Doe">
+  </div>
+
+  <div>
+    <label for="email">Email Address</label>
+    <input id="email" type="email" name="email" required placeholder="JaneDoe@email.com">
+  </div>
+
+  <div>
+    <label for="password">New Password</label>
+    <input id="password" type="password" required placeholder="•••••••••">
+  </div>
+
+  <div>
+    <label for="phone">Telephone Number (cell or home)</label>
+    <input id="phone" type="tel" placeholder="111-222-3333">
+  </div>
+
+  <div>
+    <label for="address">Address</label>
+    <input id="address" placeholder="2222 Lover's Lane">
+  </div>
+
+  <div>
+    <label for="postal">Postal Code</label>
+    <input id="postal" placeholder="K13 6P6">
+  </div>
+
+  <div>
+    <label for="city">City</label>
+    <input id="city" placeholder="Chicago">
+  </div>
+
+  <div>
+    <label for="country">Country</label>
+    <select id="country">
+      <option>Canada</option>
+      <option>United States Of America</option>
+      <option>Canada</option>
+      <option>Canada</option>
+      <option>Canada</option>
+    </select>
+  </div>
+
+  <div>
+    <fieldset>
+      <legend>How are you feeling today</legend>
+      <input id="happy" type="radio" name="feels">
+      <label for="happy">Happy</label>
+    </fieldset>
+  </div>
+
+  <div>
+    <label for="message">Message</label>
+    <textarea id="message"></textarea>
+  </div>
+
+  <div>
+    <button type="sumbit">Sign Up!</button>
+  </div>
+
+  <p>By clicking Sign Up, I agree to the Terms & Conditions</p>
+</form>
 
 </main>
 
@@ -48,6 +121,11 @@
     <br>oneone@weddingplanning.ca
     <br>613-889-4557</br>
   </p>
+
+  <div role="contentinfo">
+    <p>©Oneplusone 2015</p>
+  </div>
+</footer>
 </footer>
 
 </body>
