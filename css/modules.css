@@ -108,7 +108,7 @@ svg {
 }
 
 .embed--1by1 {
-  padding-top: 100%; /* Square */
+  padding-top: 0%; /* Square */
 }
 
 .embed--4by3 {
