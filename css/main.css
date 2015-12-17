@@ -393,6 +393,7 @@ footer p {
 
   .couple-image {
     height: 252px;
+    -webkit-filter:blur(5px)
   }
 
   .quote {
