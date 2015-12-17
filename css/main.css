@@ -6,7 +6,7 @@ nav {
 }
 
 ul {
-  padding-top: 4em;
+  padding-top: 1.5em;
   display: none;
   clear: both;
 }
@@ -173,6 +173,7 @@ label {
 input {
   text-align: center;
   border: 1.75px solid #412312;
+  background-color: #FFEEEE;
 
 }
 input + label {
@@ -180,7 +181,7 @@ input + label {
 }
 
 select {
-
+    background-color: #FFEEEE;
 }
 
 button {
@@ -234,12 +235,12 @@ footer p {
 }
 
 .media-icon {
-  width: 11%;
-  display: inline;
   padding: 0;
+  width: 11%;
 }
 
 .media {
+  display: inline;
   padding: 0;
 }
 
@@ -365,8 +366,9 @@ footer p {
 
 @media only screen and (min-width: 53em) {
   .small-logo {
-    width: 18%;
+    width: 15%;
     float: left;
+    padding: .5% 0 0 .5%;
   }
 
   .media-icon {
@@ -413,7 +415,7 @@ footer p {
   }
 
   .media-icon {
-    width: 3%;
+    width: 4%;
   }
 
   .form {
