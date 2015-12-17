@@ -103,7 +103,6 @@ svg {
 .embed {
   margin-left: 0;
   margin-right: 0;
-  overflow: hidden;
   position: relative;
   width: 100%;
 }
@@ -155,7 +154,6 @@ svg {
 .embed__item {
   height: 100%;
   left: 0;
-  position: absolute;
   top: 0;
   width: 100%;
 }

@@ -1,21 +1,25 @@
 nav {
   text-align: center;
   background-color: #730000;
+  clear: both;
   overflow: hidden;
 }
 
 ul {
   padding-top: 4em;
   display: none;
+  clear: both;
 }
 
 .small-logo {
   float: left;
   width: 45%;
+  clear: both;
 }
 
-img {
+.img-flex {
   width: 100%;
+  display: block;
 }
 
 h1, li a {
@@ -231,6 +235,12 @@ footer p {
 
 .media-icon {
   width: 11%;
+  display: inline;
+  padding: 0;
+}
+
+.media {
+  padding: 0;
 }
 
 @media only screen and (min-width: 20em) {
@@ -273,6 +283,7 @@ footer p {
   .small-logo {
     width: 22%;
     float: left;
+    padding-top: 1%;
   }
 
   .menu-icon {
@@ -330,6 +341,11 @@ footer p {
   .media-icon {
     width: 7%;
   }
+
+  .small-logo {
+    padding-top: 0%;
+  }
+
 }
 
 @media only screen and (min-width: 40em) {
